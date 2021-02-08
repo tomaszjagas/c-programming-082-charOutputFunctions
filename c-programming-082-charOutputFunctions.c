@@ -34,7 +34,7 @@ int main() {
 
     if (pFile != NULL) {
         for (c = 'A'; c <= 'Z'; c++) {
-            fputc(c, stdout);
+            fputc(c, pFile);
         }
         fclose(pFile);
     }
